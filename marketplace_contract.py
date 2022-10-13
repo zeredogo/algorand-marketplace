@@ -1,4 +1,4 @@
-from ast import Global
+from ast import Global, Return
 from pyteal import *
 
 
@@ -68,4 +68,5 @@ class Product:
     def approval_program(self):
         return self.application_start()
 
-    
+    def clear_program(self):
+        return Return(Int(1))
