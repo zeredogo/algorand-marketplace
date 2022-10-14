@@ -1,4 +1,3 @@
-from ast import Global, Return
 from pyteal import *
 
 
