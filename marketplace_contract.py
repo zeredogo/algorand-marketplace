@@ -62,4 +62,5 @@ class Product:
     def clear_program(self):
         return Return(Int(1))
     
-    def edit_program
+    def edit_program(self):
+        return Return(Int(1))
